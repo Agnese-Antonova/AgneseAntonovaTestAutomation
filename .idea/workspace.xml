@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7e31add-fac2-4771-8e82-a7c362373af8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mavenTestNGHomework/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Footer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classRoomSeven/SwagLabsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/MavenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/OtraisUzdevums.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AtRlngU1yJvV3zVNibyhwtmGOu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/IdeaProjects/AgneseAntonovaTestAutomation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\IdeaProjects\AgneseAntonovaTestAutomation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mavenTestNGHomework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CalculatorTest">
+    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgneseAntonovaTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testDivide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgneseAntonovaTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivide" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgneseAntonovaTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classRoomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classRoomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classRoomSeven.SwagLabsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabsTest.testErrorMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgneseAntonovaTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classRoomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classRoomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classRoomSeven.SwagLabsTest" />
+      <option name="METHOD_NAME" value="testErrorMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabsTest.testSamplePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AgneseAntonovaTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classRoomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classRoomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classRoomSeven.SwagLabsTest" />
+      <option name="METHOD_NAME" value="testSamplePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CalculatorTest" />
+        <item itemvalue="TestNG.CalculatorTest.testDivide" />
+        <item itemvalue="TestNG.SwagLabsTest.testSamplePage" />
+        <item itemvalue="TestNG.SwagLabsTest" />
+        <item itemvalue="TestNG.SwagLabsTest.testErrorMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7e31add-fac2-4771-8e82-a7c362373af8" name="Changes" comment="" />
+      <created>1655827059641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655827059641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
