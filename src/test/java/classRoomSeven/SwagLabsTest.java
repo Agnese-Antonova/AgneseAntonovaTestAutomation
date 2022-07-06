@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -12,10 +13,14 @@ import org.testng.annotations.Test;
 import pageObjects.LoginPage;
 import pageObjects.ProductsPage;
 
+import java.time.Duration;
 import java.util.List;
 
 public class SwagLabsTest {
     WebDriver driver;
+    WebDriverWait wait;
+
+    public final String SAUCELABS_URL = "https://www.saucedemo.com/";
     private final String SWAGLABS_URL = "https://www.saucedemo.com/";
     private final String LOCAL_URL= "file://C:\\Users\\pc\\IdeaProjects\\AgneseAntonovaTestAutomation\\elements.html";
 
@@ -24,31 +29,39 @@ public class SwagLabsTest {
         //atveram browseri
         driver = new ChromeDriver();
         driver.manage().window().maximize(); //maximizē windows logu
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
     }
 
-    @Test
-    public void testErrorMessage() throws InterruptedException {
-        //veiksim visas darbības, lai notestētu error message
-        driver.get(SWAGLABS_URL);
-        WebElement userNameInputField = driver.findElement(By.id("user-name"));
-        userNameInputField.sendKeys("standard_user");
-
-        //tagad uzrakstam paroles lauku un uevadam tur vertibu
-        WebElement userPasswordInputField = driver.findElement(By.id("password"));
-        userPasswordInputField.sendKeys("");
-
-        //atradisim login pogu
-        WebElement loginButton = driver.findElement(By.cssSelector("input#login-button"));
-        loginButton.click();
-
-        WebElement errorMessage = driver.findElement(By.cssSelector("h3[data-test='error']"));
-        String actualErrorMessage = errorMessage.getText();
-        String expectedErrorMessage = "Epic sadface: Password is required";
-        Assert.assertEquals(actualErrorMessage,expectedErrorMessage);
-
-        Thread.sleep(5000);// 5 sek pagaida
-    }
+    //    @Test
+//    public void testErrorMessage() throws InterruptedException {
+//        //veiksim visas darbibas, lai notestetu error message
+//        driver.get(SWAGLABS_URL);
+//
+//        WebElement userNameInputField =  driver.findElement(By.id("user-name"));
+////        WebElement userNameInputField =  driver.findElement(By.cssSelector("input[id='user-name']"));
+//        userNameInputField.sendKeys("standard_user");
+//
+//        //tagad uzrakstam paroles lauku un ievadam tur vertibu
+//        WebElement passwordInputField = driver.findElement(By.name("password"));
+//        passwordInputField.sendKeys("");
+//
+//        //atradisim Login pogu
+//
+//        WebElement loginButton = driver.findElement(By.cssSelector("input#login-button"));
+//        loginButton.click();
+//
+//        WebElement errorMessage = driver.findElement(By.cssSelector("h3[data-test='error']"));
+//        String actualErrorMessage = errorMessage.getText();
+//        String expectedErrorMessage = "Epic sadface: Password is required";
+//
+//        Assert.assertEquals(actualErrorMessage,expectedErrorMessage);
+//
+//        Thread.sleep(5000);
+//        System.out.println("Izpildam testu");
+//
+//    }
 
 
     @Test

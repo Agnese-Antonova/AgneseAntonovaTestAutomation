@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7e31add-fac2-4771-8e82-a7c362373af8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mavenTestNGHomework/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classRoomSeven/SwagLabsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/MavenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/OtraisUzdevums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AcodemyShop/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classRoomEight/AcodemyShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/SauceDemoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classRoomSeven/SwagLabsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classRoomSeven/SwagLabsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +46,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/IdeaProjects/AgneseAntonovaTestAutomation&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/IdeaProjects/Agnese-Antonova&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,20 +58,27 @@
       <recent name="C:\Users\pc\IdeaProjects\AgneseAntonovaTestAutomation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seleniumHomeworkt" />
       <recent name="mavenTestNGHomework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CalculatorTest">
-    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$" />
+      <recentPaths value="$PROJECT_DIR$/src/test/java/seleniumHomework" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.SauceDemoTests">
+    <configuration name="AcodemyShopTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgneseAntonovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -86,17 +86,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testDivide" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest.testSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgneseAntonovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
-      <option name="METHOD_NAME" value="testDivide" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,16 +104,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SauceDemoTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgneseAntonovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classRoomSeven.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classRoomSeven.SwagLabsTest" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -121,17 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabsTest.testErrorMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SauceDemoTests.testGoToCheckoutOverviewPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgneseAntonovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classRoomSeven.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classRoomSeven.SwagLabsTest" />
-      <option name="METHOD_NAME" value="testErrorMessage" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
+      <option name="METHOD_NAME" value="testGoToCheckoutOverviewPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,17 +139,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabsTest.testSamplePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SauceDemoTests.testSecondScenario" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AgneseAntonovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classRoomSeven.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classRoomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classRoomSeven.SwagLabsTest" />
-      <option name="METHOD_NAME" value="testSamplePage" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
+      <option name="METHOD_NAME" value="testSecondScenario" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,13 +157,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.AcodemyShopTest" />
+      <item itemvalue="TestNG.AcodemyShopTest.testSearch" />
+      <item itemvalue="TestNG.SauceDemoTests.testGoToCheckoutOverviewPage" />
+      <item itemvalue="TestNG.SauceDemoTests" />
+      <item itemvalue="TestNG.SauceDemoTests.testSecondScenario" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalculatorTest" />
-        <item itemvalue="TestNG.CalculatorTest.testDivide" />
-        <item itemvalue="TestNG.SwagLabsTest.testSamplePage" />
-        <item itemvalue="TestNG.SwagLabsTest" />
-        <item itemvalue="TestNG.SwagLabsTest.testErrorMessage" />
+        <item itemvalue="TestNG.SauceDemoTests" />
+        <item itemvalue="TestNG.SauceDemoTests.testSecondScenario" />
+        <item itemvalue="TestNG.SauceDemoTests.testGoToCheckoutOverviewPage" />
+        <item itemvalue="TestNG.AcodemyShopTest.testSearch" />
+        <item itemvalue="TestNG.AcodemyShopTest" />
       </list>
     </recent_temporary>
   </component>
